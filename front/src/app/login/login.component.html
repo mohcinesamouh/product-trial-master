@@ -1,0 +1,24 @@
+  <p-card header="Bienvenue" class="block m-2 text-left">
+    <p class="m-0">
+      Connectez vous sur ALTEN SHOP
+    </p>
+  </p-card>
+  <div class="block m-2 text-center">
+  <p-card class="block m-2 text-left">
+      <form #form="ngForm" [formGroup]="loginForm" (ngSubmit)="handleLogin()">
+        <div class="col-1">
+          <label>Email </label>
+          <input pInputText type="text" id="email" formControlName="email" required>
+        </div>
+        <div class="col-1">
+          <label>Password </label>
+          <input pInputText type="text" id="password"  formControlName="password" required>
+        </div>
+        <div class="col-1">
+            <p-button type="submit" label="Login" severity="success"/>
+        </div>
+      </form>
+  </p-card>
+  </div>
+
+
