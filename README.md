@@ -1,3 +1,63 @@
+la loyd
+
+Santé
+Prévoyance
+!= Assurance de vie = Produits financiére
+
+
+2700 personnes
+
+AXA 50 000 personnes
+
+Un segment de client important ( 1500000 clients)
+
+DSI
+   outils relation client
+   Facteur dispathhcer les demandes clients
+   15 000 demandes / jours
+   650 gestionnaires corbeilles numerique
+   
+   
+   CFT : FTP securisé
+   EUroTVS : Archiveur 
+   Iron : Archiveir 
+   
+   
+   
+   Dommage : Assurance sur les biens ( voiture, degats des eau)
+   Oxyged : Sané remoboursement ( dent)
+   PopGED : Prévoyance ( En cas de maladie , en cas de déces eon verse pour ta famille
+   Pegase : Application sur Assurance de vie ( Produit financéire)
+   Administration : 
+   
+   FileNet IBM
+   FileNet CE ( versionnerles documents )/stocker les documents 
+   FileNet PE : Process Engine Moteur de BPM
+   
+   
+   Dynamo DB : Historique
+   Document DB: Index 
+   
+   MySL  :   Pour Particulier
+   SLONE : ( Apporteur d'affaire)
+   
+   Arender Visionneur de documents
+   
+ Table de FileNet CE:
+   Container  : index de la demande 
+   Generic  : pour l'hitorique
+   DocVersion : Table qui stocke les informations de documents et le pointeur sur S3
+   RelationShip : Lien entre Container et DocVersion 
+   
+   
+   
+   Bratislava
+   
+   MySwisslife MYSL   
+   DocumentDB Amazon MongoDB
+   
+   
+   SharePoint >>> documents de 
 # Consignes
 
 - Vous êtes développeur front-end : vous devez réaliser les consignes décrites dans le chapitre [Front-end](#Front-end)
